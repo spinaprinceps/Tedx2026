@@ -68,7 +68,7 @@ const speakersData = {
   ],
   2025: [
     { name: 'Badekilla Pradeep', designation: 'Voice Artist', image: 'src/assets/speakers_pic/2025/25pradeep.jpeg' },
-    { name: 'Sakshi Baid', designation: 'North Indian Learning and Teaching Kannada', image: 'src/assets/speakers_pic/2025/25sakshi.jpeg' },.
+    { name: 'Sakshi Baid', designation: 'North Indian Learning and Teaching Kannada', image: 'src/assets/speakers_pic/2025/25sakshi.jpeg' },
     { name: 'Dr. John Ebnezar', designation: 'Padma Shri Awardee', image: 'src/assets/speakers_pic/2025/25john.png' },
     { name: 'Nisha Jamvwal', designation: 'Columnist Poet and Author', image: 'src/assets/speakers_pic/2025/25nisha.jpg' },
     { name: 'Srihari Dhandapani', designation: ' Enterprise Cloud Architect', image: 'src/assets/speakers_pic/2025/25srihari.jpg' },
