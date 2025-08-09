@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Purbayan Biswas",
+        "role": "Organizer",
+        "bio": "Hi, I'm Purbayan",
+        "img": "../src/about-us/member-assets/purbayan-biswas.png"
+    },
+    {
+        "id": 2,
+        "name": "Juhi Kumari",
+        "role": "Co-Organizer",
+        "bio": "Hi, I'm Juhi"
+    }
+
+]

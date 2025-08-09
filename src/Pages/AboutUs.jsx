@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/AboutUs.css'
+import MemberCard from '../Components/MemberCard'
+import member from '../about-us/teamMembers.json'
+
 const AboutUs = () => {
   return (
     <div className='about-us-enitre-page'>
@@ -31,7 +34,17 @@ const AboutUs = () => {
       <div className="third-section">
         <h1>Team Members</h1>
         <div className="box-team">
-          Box
+          <div className="special-members-column">
+          </div>
+          <div className="members-grid-column">
+          </div>
+          <div className="members-grid-details">
+          </div>
+          
+          {/* USING THIS WHEN TIME ARRIVES 
+          {member.map((members) => (
+            <MemberCard key={members.id} member={members} />
+          ))} */}
         </div>
       </div>
     </div>

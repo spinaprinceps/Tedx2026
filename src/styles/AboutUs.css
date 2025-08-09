@@ -41,12 +41,6 @@ h1 {
     color: white;
 }
 
-.img-container {
-    position: relative;
-    flex-grow: 1;
-    min-height: 0;
-}
-
 .about-img-text {
     position: absolute;
     color: white;
@@ -55,6 +49,12 @@ h1 {
     bottom: -5%;
     left: 4%;
     right: 70%;
+}
+
+.img-container {
+    position: relative;
+    flex-grow: 1;
+    min-height: 0;
 }
 
 .img-container video {
@@ -82,6 +82,7 @@ h1 {
 }
 
 .our-mission {
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
@@ -176,9 +177,46 @@ h1 {
 }
 
 .box-team {
-    background-color: #b8c5d6;
+    background-color: #28231d;
     margin: 1% 5%;
+    padding: 10px;
     height: 80%;
-    border-radius: 35px;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em 1em;
+}
 
+.member-capsule {
+    background-color: #fff;
+    border: 1px solid #EB0028;
+    border-radius: 1rem;
+    grid-area: 1 / 1 / 2 / 2;
+    min-height: 0;
+    padding: 0.5em;
+}
+.member-container {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    gap: 0.5em;
+    height: 100%;
+}
+.member-image-box {
+    width: 100%;
+    min-height: 0;
+}
+.member-image-box img {
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.member-name {
+    width: 100%;
+    padding-left: 1em;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
 }
