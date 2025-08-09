@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    font-family: 'Mozilla Headline', 'Poppins';
+    background-color: #0a0a0a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+
+.title {
+    font-size: 2.25rem;
+    align-items: center;
+    word-spacing: wide;
+    font-weight: 400;
+    color: white;
+}
+
+.club-name {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #e62b1e;
+}
+
+.clg-name {
+    font-family: 'Mozilla Headline';
+    font-weight: 400;
+    color: #e62b1e;
+}
+
+.mission-statement {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    color: #737373;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+
+}
+
+ .hero-video-container{
+    display: flex;
+    margin-top: 1.125rem;
+    justify-content: center;
+    
+ }
+
+ .hero-video, 
+ .recruitment-banner {
+    border-radius: 0.5rem;
+    width: 40%;
+    border: 1px solid #E62B1E;
+    box-shadow: 0 4px 6px -1px #b91c1c;
+    margin: 1rem 0.5rem;
+ }
+
+ .who-we-are-container {
+    position: relative;
+    margin-top: 3rem;
+    min-height: 20rem;
+    border-bottom: 1px solid #e62b1e;
+ }
+
+ .who-we-are-title {
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #ef4444;
+    height: 1.5rem;
+    border-radius: 600rem;
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who-we-are-para {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    color: #737373;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.who-we-are-moto, 
+.who-we-are-clb-name,
+.what-you-will-do-clb-name,
+.what-you-will-do-domain {
+    font-weight: bold;
+    color: #e62b1e;
+}
+
+.what-you-will-do-container {
+    position: relative;
+    margin-top: 5rem;
+    border-bottom: 1px solid #e62b1e;
+    min-height: 25rem;
+ }
+
+ .what-you-will-do-title {
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #ef4444;
+    height: 1rem;
+    border-radius: 600rem;
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .what-you-will-do-desc {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    color: #737373;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+ /* Domain Styling*/
+
+
+    .domain-container {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 25rem;
+        max-width: 44rem;
+        border-radius: 10px;
+        overflow: hidden;
+        color: white;
+        text-align: center;
+        
+    }
+
+    .domain-toggle {
+        background-color: #e62b1e;
+        color: white;
+        border: none;
+        padding: 0.625rem 1.25rem;
+        border-radius: 600rem;
+        cursor: pointer;
+        margin-bottom: 1.25rem;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .domain-item {
+        border-bottom: 1px solid #2c2c2c;
+        color: #e62b1e;
+        cursor: pointer;
+        
+        padding: 1rem 1.5rem;
+        transition: background-color 0.3s ease;
+    }
+
+   
+
+    .domain-description {
+        font-family: 'Poppins';
+        padding: 1rem 1.5rem;
+        background-color: #181818;
+        color: #ddd;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1rem;
+    }
+
+    .domain-item.active .domain-description {
+        display: block;
+    }
+
+    /*Why Us Section*/
+
+
+    .why-us-container {
+        position: relative;
+        margin-top: 5rem;
+        border-bottom: 1px solid #e62b1e;
+        min-height: 25rem;
+    }
+
+    .why-us-title {
+        text-align: center;
+        background-color: #0a0a0a;
+        color: #ef4444;
+        height: 1.5rem;
+        border-radius: 600rem;
+        font-size: 0.875rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials-section {
+        position: relative;
+        margin-top: 5rem;
+        border-bottom: 1px solid #e62b1e;
+        min-height: 25rem;
+    }
+
+    .testimonials-container {
+        max-width: 75rem;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .testimonial-card {
+        background-color: #070707;
+        color: white;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        flex: 1 1 18.75rem;
+        max-width: 25rem;
+    }
+
+    .testimonial-subtitle {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+        color: #737373;
+        max-width: 56rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-style: italic;
+
+    }
+
+    .testimonial-name {
+        font-family: 'Poppins';
+        color: #e62b1e;
+        font-size: 1.25rem;
+        font-weight: 600rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .testimonial-company {
+        font-family: 'Poppins';
+        color: #737373;
+        font-size: 0.95rem;
+        font-style: italic;
+        margin-bottom: 0.75rem;
+    }
+
+    .testimonial-feedback {
+        font-family: 'Poppins';
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #ccc;
+    }
+
+    /* How To Join Us Section  */
+
+    .how-to-join-container {
+        position: relative;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        border-bottom: 1px solid #e62b1e;
+        min-height: 25rem;
+    }
+
+    .how-to-join-title {
+        text-align: center;
+        background-color: #0a0a0a;
+        color: #ef4444;
+        height: 1.5rem;
+        border-radius: 600rem;
+        font-size: 0.875rem;
+        margin-top: 5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .how-to-join-desc {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+        color: #737373;
+        max-width: 56rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .reg-form {
+        font-weight: bold;
+        color: #ccc;
+    }
+
+
+    .join-button-container {
+      display: flex;
+      justify-content: center;
+      width: auto;
+    }
+
+    .join-button {
+        background-color: #070707;
+        color: #e62b1e;
+        padding: 0.75rem 1.5rem;
+        margin-bottom: 5rem;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        display: block;
+    }
+
+    .join-button:hover {
+        background-color: #070707;
+        color: red;
+    }
+
+
+    /* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .homepage-container {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+    text-align: center;
+
+  }
+
+  .mission-statement,
+  .who-we-are-para,
+  .what-you-will-do-desc,
+  .testimonial-subtitle,
+  .how-to-join-desc {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+
+  .who-we-are-container {
+    min-height: 27rem;
+  }
+
+  .what-you-will-do-container {
+    min-height: 12rem;
+  }
+
+  .hero-video-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-video,
+  .recruitment-banner {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .domain-container {
+    flex-direction: column;
+    min-width: auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin: 1rem;
+  }
+
+  .domain-item {
+    min-width: 100%;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .domain-description {
+    font-size: 0.9rem;
+  }
+
+  .testimonials-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .how-to-join-desc {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .join-button {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+  }
+
+  .who-we-are-title,
+  .what-you-will-do-title,
+  .why-us-title,
+  .how-to-join-title {
+    font-size: 0.75rem;
+    height: auto;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .testimonial-name {
+    font-size: 1rem;
+  }
+
+  .testimonial-company {
+    font-size: 0.85rem;
+  }
+
+  .testimonial-feedback {
+    font-size: 0.95rem;
+  }
+  
+}
+
+
+
+@media (min-width: 768px) {
+  .domain-item {
+    min-width: 44rem;
+  }
+}
