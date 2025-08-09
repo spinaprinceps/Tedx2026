@@ -1,14 +1,3 @@
-/* Font usage from Google fonts!
-.inter-example {
-    
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-} */
-
-/* .about-us-entire-page  {
-    height: 100%;
-} */
 * {
     font-family: "Inter", sans-serif;
 }
@@ -176,25 +165,12 @@ h1 {
     background-color: #EB0028;
 }
 
-.box-team {
-    background-color: #28231d;
-    margin: 1% 5%;
-    padding: 10px;
-    height: 80%;
-    border-radius: 1em;
-    display: grid;
-    grid-template-columns: 1.5fr 5fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1em 1em;
-}
-
 .member-capsule {
     background-color: #fff;
     border: 1px solid #EB0028;
     border-radius: 1rem;
-    grid-area: 1 / 1 / 2 / 2;
     min-height: 0;
-    padding: 0.5em;
+    padding: 0.3em;
 }
 .member-container {
     display: grid;
@@ -214,9 +190,75 @@ h1 {
 }
 .member-name {
     width: 100%;
-    padding-left: 1em;
+    padding-left: 0.5em;
     text-align: left;
     background-color: white;
     color: black;
     border-radius: 1rem;
+}
+
+.box-team {
+    background-color: #28231d;
+    margin: 1% 5%;
+    padding: 10px;
+    height: 80%;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "special main details";
+    grid-gap: 1em 1em;
+}
+
+.special-members-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    grid-area: special;
+}
+.members-grid-column {
+    align-items: center;
+    overflow: auto;
+    grid-area: main;
+}
+.members-grid {
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: minmax(200px, 250px);
+    gap: 1em;
+}
+.members-grid-details {
+    grid-area: details;
+}
+.members-grid-single {
+    display: none;
+    grid-area: main-single;
+}
+.special-members-column,
+.members-grid-column,
+.members-grid-single,
+.members-grid-details {
+    min-height: 0;
+}
+
+@media (max-width: 1024px) {
+    .members-grid,
+    .special-members-column {
+        display: none;
+    }
+    .box-team {
+        grid-template-columns: 1fr;
+        grid-template-areas: "main";
+    }
+    .members-grid-single {
+        /* justify-content: center; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-auto-rows: minmax(200px, 300px);
+        gap: 1em;
+    }
+    .members-grid-details {
+        display: none;
+    }
 }

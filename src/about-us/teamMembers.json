@@ -3,14 +3,198 @@
         "id": 1,
         "name": "Purbayan Biswas",
         "role": "Organizer",
+        "year": "4th Year",
         "bio": "Hi, I'm Purbayan",
-        "img": "../src/about-us/member-assets/purbayan-biswas.png"
+        "img": "https://images.unsplash.com/photo-1511367461989-f85a21fda167",
+        "isLead": true
     },
     {
         "id": 2,
         "name": "Juhi Kumari",
         "role": "Co-Organizer",
-        "bio": "Hi, I'm Juhi"
+        "year": "4th Year",
+        "bio": "Hi, I'm Juhi",
+        "img": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+        "isLead": true
+    },
+    {
+        "id": 3,
+        "name": "Aditya Sharma",
+        "role": "Technical Lead",
+        "year": "4th Year",
+        "bio": "Hi, I'm Aditya",
+        "img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+        "isLead": false
+    },
+    {
+        "id": 4,
+        "name": "Ananya Rao",
+        "role": "Marketing Head",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Ananya",
+        "img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+        "isLead": false
+    },
+    {
+        "id": 5,
+        "name": "Rohan Mehra",
+        "role": "Sponsorship Coordinator",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Rohan",
+        "img": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6",
+        "isLead": false
+    },
+    {
+        "id": 6,
+        "name": "Isha Singh",
+        "role": "Content Lead",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Isha",
+        "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956",
+        "isLead": false
+    },
+    {
+        "id": 7,
+        "name": "Vikram Chauhan",
+        "role": "Logistics Head",
+        "year": "4th Year",
+        "bio": "Hi, I'm Vikram",
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+        "isLead": false
+    },
+    {
+        "id": 8,
+        "name": "Sneha Gupta",
+        "role": "Social Media Manager",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Sneha",
+        "img": "https://images.unsplash.com/photo-1554151228-14d9def656e4",
+        "isLead": false
+    },
+    {
+        "id": 9,
+        "name": "Arjun Patel",
+        "role": "Speaker",
+        "year": "4th Year",
+        "bio": "Hi, I'm Arjun",
+        "img": "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6",
+        "isLead": false
+    },
+    {
+        "id": 10,
+        "name": "Diya Mehta",
+        "role": "Speaker",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Diya",
+        "img": "https://images.unsplash.com/photo-1534528741775-53994a69daeb",
+        "isLead": false
+    },
+    {
+        "id": 11,
+        "name": "Kabir Shah",
+        "role": "Mentor",
+        "year": "4th Year",
+        "bio": "Hi, I'm Kabir",
+        "img": "https://images.unsplash.com/photo-1557862921-37829c790f19",
+        "isLead": false
+    },
+    {
+        "id": 12,
+        "name": "Myra Reddy",
+        "role": "Mentor",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Myra",
+        "img": "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5",
+        "isLead": false
+    },
+    {
+        "id": 13,
+        "name": "Neil Kumar",
+        "role": "Workshop Facilitator",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Neil",
+        "img": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f",
+        "isLead": false
+    },
+    {
+        "id": 14,
+        "name": "Zara Ali",
+        "role": "Design Lead",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Zara",
+        "img": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1",
+        "isLead": false
+    },
+    {
+        "id": 15,
+        "name": "Vihaan Das",
+        "role": "Photographer",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Vihaan",
+        "img": "https://images.unsplash.com/photo-1615109398623-88346a601842",
+        "isLead": false
+    },
+    {
+        "id": 16,
+        "name": "Kavya Iyer",
+        "role": "Community Manager",
+        "year": "3rd Year",
+        "bio": "Hi, I'm Kavya",
+        "img": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845",
+        "isLead": false
+    },
+    {
+        "id": 17,
+        "name": "Sameer Joshi",
+        "role": "Volunteer",
+        "year": "1st Year",
+        "bio": "Hi, I'm Sameer",
+        "img": "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c",
+        "isLead": false
+    },
+    {
+        "id": 18,
+        "name": "Priya Verma",
+        "role": "Volunteer",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Priya",
+        "img": "https://images.unsplash.com/photo-1544005313-94ddf0286de2",
+        "isLead": false
+    },
+    {
+        "id": 19,
+        "name": "Dhruv Malhotra",
+        "role": "Volunteer",
+        "year": "1st Year",
+        "bio": "Hi, I'm Dhruv",
+        "img": "https://images.unsplash.com/photo-1583195648443-4b69ce36b480",
+        "isLead": false
+    },
+    {
+        "id": 20,
+        "name": "Riya Kapoor",
+        "role": "Volunteer",
+        "year": "2nd Year",
+        "bio": "Hi, I'm Riya",
+        "img": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+        "isLead": false
+    },
+    {
+        "id": 21,
+        "name": "Ishaan Agarwal",
+        "role": "Volunteer",
+        "year": "1st Year",
+        "bio": "Hi, I'm Ishaan",
+        "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+        "isLead": false
+    },
+    {
+        "id": 22,
+        "name": "Ayesha Khan",
+        "role": "Volunteer",
+        "year": "1st Year",
+        "bio": "Hi, I'm Ayesha",
+        "img": "https://images.unsplash.com/photo-1599424532672-911765a46312",
+        "isLead": false
     }
-
 ]

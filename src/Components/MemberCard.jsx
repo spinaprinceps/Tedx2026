@@ -7,7 +7,8 @@ const MemberCard = ({member}) => {
                 </div>
                 <div className="member-name">
                     <h3>{member.name}</h3>
-                    <h4>{member.role}</h4>
+                    <p>{member.role}</p>
+                    <p>{member.year}</p>
                 </div>
             </div>
         </div>

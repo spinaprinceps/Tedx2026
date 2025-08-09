@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/AboutUs.css'
 import MemberCard from '../Components/MemberCard'
 import member from '../about-us/teamMembers.json'
 
 const AboutUs = () => {
+  const specialMembers = member.filter(person => person.isLead)
+  const otherMembers = member.filter(person => !person.isLead)
+  const [selectedMember, setSelectedMember] = useState(null)
+
   return (
     <div className='about-us-enitre-page'>
       <div className='first-section'>
@@ -26,7 +30,7 @@ const AboutUs = () => {
             <p><span className="highlight-red">Our mission</span> is to discover and share ideas that ignite creativity, explore new opportunities, and encourage positive change. We are dedicated to fostering curiosity, critical thinking, and the pursuit of knowledge with openness and impartiality. Ultimately, our goal is to provide a platform for spreading ideas worth sharing.</p>
           </div>
         </div>
-        </div>
+      </div>
       <div className='second-section'>
         <h1>Timeline</h1>
         <div>Box</div>
@@ -35,8 +39,21 @@ const AboutUs = () => {
         <h1>Team Members</h1>
         <div className="box-team">
           <div className="special-members-column">
+            {specialMembers.map(people => (
+                <MemberCard key={people.id} member={people} />
+            ))}
           </div>
           <div className="members-grid-column">
+            <div className="members-grid">
+            {otherMembers.map(people => (
+                <MemberCard key={people.id} member={people} />
+            ))}
+            </div>
+            <div className="members-grid-single">
+            {member.map(people => (
+                <MemberCard key={people.id} member={people} />
+            ))}
+            </div>
           </div>
           <div className="members-grid-details">
           </div>
